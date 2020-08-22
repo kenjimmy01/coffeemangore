@@ -71,16 +71,7 @@ header {
 }
 .new-gallery-item {
 	position: absolute;
-   top:  50%;
-   left: 50%;
-   width:  360px;        /* 横幅 */
-   height: 210px;        /* 高さ */
-   margin-left: -180px;  /* マイナス「横幅÷2」 */
-   margin-top:  -105px;  /* マイナス「高さ÷2」 */
-   overflow: auto;  /* 内容がはみ出る場合の表示方法 */
-
-   background-color: #ffcccc; /* 背景色 */
-   color: #000000;            /* 文字色 */
+   
 }
 .new-gallery-item img {
 	width: 100%;
