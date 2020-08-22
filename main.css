@@ -4,11 +4,11 @@ body {
 	margin: 0px auto;
 	padding: 0px;
 	position: relative;
-	width: 100%;
+	width: 50%;
 	height: auto;
 	min-height: 100%;
 	font-family: "Arial Rounded MT Bold";
-    background-color: #4682B4;
+    background-color: black;
 }
 
 
