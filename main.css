@@ -73,7 +73,7 @@ header {
 	position: relative;
 }
 .new-gallery-item img {
-	width: 100%;
+	width: 50%;
 }
 .new-article-headline {
 	color: white;
