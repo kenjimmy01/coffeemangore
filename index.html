@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+	<title>coffeemangore</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+	<head>
+		<div class="nav">
+		<p class="nav" class="shadow"><a href="index.html">Coffee</a></p>
+		<p class="nav">
+			<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn">&nbsp;&nbsp;&nbsp;&nbsp;ALL MENU&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    			<div id="myDropdown" class="dropdown-content">
+    			 
+    				<a href="about.html">About </a>
+    				<a href="past.html">Past articles </a>
+    				<a href="contact.html">Contact </a>
+    			 
+    		</div>
+		</div>
+		</p>
+	</header>
+	
+	<div class="main-contents">
+		
+	<div class="new-gallery">
+		<a href="https://youtu.be/M5p9JO9JgvU"><figure class="new-gallery-item">
+			<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F312%2F690%2Foriginal%2Fhigh-detailed-neon-light-background-vector-illustration.jpg&f=1&nofb=1">
+			<figcaption class="new-article-headline"><p>ペルー<br>メキシコ無農薬</p></figcaption>
+			</a>
+		</figure>
+	</div>
+
+	<div class="gallery">
+		<a href="article.html"><figure class="gallery-item">
+			<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.envato.com%2Ffiles%2F226205381%2Fpreview.jpg&f=1&nofb=1">
+			<p class="article-headline">あ<br>い</p>
+			<p class="article-description">う</p></a>
+		</figure>
+		<a href="article.html"><figure class="gallery-item">
+			<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EGKwNlKB655P0izhC7YFowHaEK%26pid%3DApi&f=1">
+			<p class="article-headline">お<br>2015.9.28</p>
+			<p class="article-description">え</p></a>
+		</figure>
+		<a href="article.html"><figure class="gallery-item">
+			<img src="https://i.ytimg.com/vi/N4W_TocJIPY/maxresdefault.jpg">
+			<p class="article-headline">か<br>2015.9.28</p>
+			<p class="article-description">！？</p></a>
+		</figure>
+		<a href="article.html"><figure class="gallery-item">
+			<img src="https://ak4.picdn.net/shutterstock/videos/614374/thumb/1.jpg">
+			<p class="article-headline">おお<br>k</p>
+			<p class="article-description">る</p></a>
+		</figure>
+		<a href="article.html"><figure class="gallery-item">
+			<img src="https://i.ytimg.com/vi/EJJ91Ig6SRg/maxresdefault.jpg">
+			<p class="article-headline">い<br>ろ</p>
+			<p class="article-description">め</p></a>
+		</figure>
+		<a href="article.html"><figure class="gallery-item">
+			<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.hlew_x_CBh8DW38r3CqBsQHaE7%26pid%3DApi&f=1">
+			<p class="article-headline">廃線<br>2015.9.28</p>
+			<p class="article-description">線路を歩く。</p></a>
+		</figure>
+	</div>
+	</div>
+	
+	
+	
+	<footer>
+		<ul>
+			<li><a href="about.html">サイトについて</a></li>
+			<li><a href="contact.html">お問い合わせ</a></li>
+			<li><a href="about.html">カテゴリー</a></li>
+			<li><a href="about.html">twitter</a></li>
+			<li><a href="about.html">facebook</a></li>
+			<li><a href="about.html">instagram</a></li>
+		</ul>
+		
+	</footer>
+	</div>
+	
+	
+	
+	<script type="text/javascript">
+		
+		/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+	</script>
+</body>
+</html>
