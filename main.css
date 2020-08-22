@@ -135,9 +135,9 @@ footer {
 	z-index: ;
 	width: 100%;
 	height: 270px;
-	background-color: #dcdcdc;
+	background-color: blue;
 	position: absolute; 
-	bottom: 0;
+	bottom: 100%;
 }
 footer ul {
 	text-decoration: none;
