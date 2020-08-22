@@ -73,10 +73,10 @@ header {
 	position: relative;
 }
 .new-gallery-item img {
-	width: 50%;
+	width: 20%;
 }
 .new-article-headline {
-	color: white;
+	color: lightblue;
 	font-size: xx-large;
 	font-weight: bold;
 	position: absolute;
@@ -112,13 +112,13 @@ header {
 .article-headline {
 	font-weight: bold;
 	text-align: center;
-	color: white;
+	color: red;
 	position: absolute;
 	width: 100%;
 	bottom: 90px;
 }
 .article-description {
-	color: black;
+	color: green;
 }
 img {
 	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
@@ -133,7 +133,7 @@ img {
                  
 footer {
 	z-index: ;
-	width: 100%;
+	width: 50%;
 	height: 270px;
 	background-color: #dcdcdc;
 	position: absolute; 
@@ -146,8 +146,8 @@ footer li {
 	margin: 15px;
 }
 footer a {
-	text-decoration: none;
-	color: gray;
+	text-decoration: black;
+	color: blue;
 }
 
 
