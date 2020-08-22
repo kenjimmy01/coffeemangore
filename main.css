@@ -71,12 +71,15 @@ header {
 }
 .new-gallery-item {
 	position: relative;
+	color: blue;
+	
+	
 }
 .new-gallery-item img {
 	width: 20%;
 }
 .new-article-headline {
-	color: lightblue;
+	color: blue;
 	font-size: xx-large;
 	font-weight: bold;
 	position: absolute;
