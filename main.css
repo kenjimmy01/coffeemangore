@@ -115,9 +115,8 @@
                 }
 
                 .gallery-item {
-                    border: 70px dashed blue;
-                    border-style: ;
-                    background-color: azure;
+                    border: 10px solid black;
+                    border-radius: 3px;
                     position: relative;
                 }
 
