@@ -1,94 +1,94 @@
 <!DOCTYPE html>
+
 <head>
-	<title>coffeemangore</title>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="main.css"/>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <title>coffeemangore</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
+
 <body>
-	<div class="container">
-	<head>
-		<div class="nav">
-		<p class="nav" class="shadow"><a href="index.html">Coffee</a></p>
-		<p class="nav">
-			<div class="dropdown">
-			<button onclick="myFunction()" class="dropbtn">&nbsp;&nbsp;&nbsp;&nbsp;MENU&nbsp;&nbsp;&nbsp;&nbsp;</button>
-    			<div id="myDropdown" class="dropdown-content">
-    			 
-    				<a href="about.html">Home </a>
-    				<a href="selection.html">About</a>
-    				<a href="contact.html">Contact </a>
-    			 
-    		</div>
-		</div>
-		</p>
-	</header>
-	
-	<div class="main-contents">
-		
-	<div class="new-gallery">
-		<a href=""><figure class="new-gallery-item">
-			<figcaption class="new-article-headline"><p><br></p></figcaption>
-			</a>
-		</figure>
-	</div>
+    <div class="container">
 
-	<div class="gallery">
-		<a href="article.html"><figure class="gallery-item">
-			<p class="article-headline"><br></p>
-			<p class="article-description"></p></a>
-		
-		</figure>
-		<a href="article.html"><figure class="gallery-item">
-			<p class="article-headline"><br></p>
-			<p class="article-description"></p></a>
-		
-		
-	</div>
-    </div>
-	
-	
+        <head>
+            <div class="nav">
+                <p class="nav" class="shadow"><a href="index.html">Coffee</a></p>
+                <p class="nav">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">&nbsp;&nbsp;&nbsp;&nbsp;MENU&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                        <div id="myDropdown" class="dropdown-content">
 
-      
-      
-      
-      
-      
-	<footer>
-		<ul>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="https://www.instagram.com/koffe_e01/">instagram</a></li>
-		</ul>
-		
-	</footer>
-	</div>
-	
-	
-	
-	<script type="text/javascript">
-		
-		/* When the user clicks on the button, 
+                            <a href="about.html">Home </a>
+                            <a href="selection.html">About</a>
+                            <a href="contact.html">Contact </a>
+
+                        </div>
+                    </div>
+                </p>
+                </header>
+
+                <div class="main-contents">
+
+
+                    <div class="gallery">
+                        <a href="article.html">
+                            <figure class="gallery-item">a
+                                <p class="article-headline"><br></p>
+                                <p class="article-description"></p>
+                        </a>
+
+                        </figure>
+                        <a href="article.html">
+                            <figure class="gallery-item">
+                                <p class="article-headline"><br></p>
+                                <p class="article-description"></p>
+                        </a>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <footer>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://www.instagram.com/koffe_e01/">instagram</a></li>
+                    </ul>
+
+                </footer>
+            </div>
+
+
+
+            <script type="text/javascript">
+                /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+                function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+                // Close the dropdown menu if the user clicks outside of it
+                window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-	</script>
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
 </body>
+
 </html>
