@@ -7,8 +7,8 @@ body {
 	width: 100%;
 	height: auto;
 	min-height: 100%;
-	font-family: "Arial Rounded MT Bold";
-    background-color: black;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+    background-color: #4682B4;
 }
 
 
@@ -30,21 +30,21 @@ header {
                 /*navigation*/
                  
 .nav {
-	font-weight: bold;
-	font-size: xx-large;
-	margin: 10px;
-	margin-right: 20px;
+	font-weight: 900;
+	font-size: 180%;
+	margin: 11px;
+	margin-right: 10%px;
 	display: flex;
 	justify-content: ;
 	flex-wrap: ;
 }
 .nav a {
 	text-decoration: none;
-	color: blue;
+	color: black;
 }
 .nav p:first-child {
 	margin-right: auto;
-	color: #8A2BE2;
+	color: black;
 	text-shadow:;
 }
 
@@ -70,8 +70,7 @@ header {
 	text-align: center;
 }
 .new-gallery-item {
-	position: absolute;
-   
+	position: relative;
 }
 .new-gallery-item img {
 	width: 100%;
@@ -108,7 +107,7 @@ header {
 	text-decoration: none;
 }
 .gallery-item {
-	
+	position: relative;
 }
 .article-headline {
 	font-weight: bold;
@@ -136,17 +135,20 @@ footer {
 	z-index: ;
 	width: 100%;
 	height: 270px;
-	background-color: blue;
-	position: absolute; 
-	bottom: 100%;
+	background-color: #dcdcdc;
+	position: absolute;
+    left:  0;
+  right: 0;
+	bottom: 0;
 }
 footer ul {
 	text-decoration: none;
 }
 footer li {
-	margin: 15px;
+	margin: 40px;
 }
 footer a {
+    text-color: red;
 	text-decoration: none;
 	color: gray;
 }
