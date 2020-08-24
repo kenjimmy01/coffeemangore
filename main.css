@@ -27,14 +27,17 @@
 
 
 
+
+
                 /*navigation*/
 
                 .nav {
                     font-weight: 900;
                     font-size: 180%;
                     margin: 11px;
-                    margin-right: 10%px;
+                    margin-right: 10%px: ;
                     display: flex;
+
                     justify-content: ;
                     flex-wrap: ;
                 }
@@ -61,7 +64,34 @@
                     height: 100%;
                     width: 100%;
                 }
+main {
+  margin: auto;
+  
+}
 
+h1 {
+  text-align: center;
+  
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+  width: 170px;
+  border-radius: 30px;
+}
+
+.fullcity {
+  background-color: #42270b;
+}
+
+.city {
+  background-color: #543d23;
+}
+
+.blend {
+  background: linear-gradient(to right, black, #6e371e);
+  
+}
 
 
                 /*new item*/
