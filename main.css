@@ -19,7 +19,7 @@ body {
     color: black;
 }
 
-.nav a:hover{
+.nav a:hover {
     color:black;
     text-decoration: underline;
     text-decoration-style: dashed;
