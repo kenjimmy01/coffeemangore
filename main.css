@@ -12,7 +12,7 @@ body {
     flex-wrap: ;
 }
 
-.nav figure {
+.nav figure > a {
     text-decoration: underline;
     text-decoration-style: dashed;
     text-decoration-color: black;
