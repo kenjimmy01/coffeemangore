@@ -12,14 +12,14 @@ body {
     flex-wrap: ;
 }
 
-.nav a {
+.nav figure {
     text-decoration: underline;
     text-decoration-style: dashed;
     text-decoration-color: black;
     color: black;
 }
 
-.nav p > a:hover {
+.nav figure:hover {
     color:black;
     text-decoration: underline;
     text-decoration-style: dashed;
